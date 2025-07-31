@@ -166,13 +166,13 @@ pip install -r requirements.txt
    Visit [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) to get the right command for your system (OS, Python version, CUDA support, etc.).
 
 4. **Download the dataset and prepare it**
-Download the dataset from:
-[https://www.kaggle.com/datasets/andrewmvd/face-mask-detection/data](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection/data)
-Create a folder called 'data' and move the 'images' and 'annotations' folders of the downloaded dataset into the 'data' directory
-Execute the prepare_dataset.py script.
-```bash
-python prepare_dataset.py
-    ```
+    Download the dataset from:
+    [https://www.kaggle.com/datasets/andrewmvd/face-mask-detection/data](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection/data)
+    Create a folder called 'data' and move the 'images' and 'annotations' folders of the downloaded dataset into the 'data' directory
+    Execute the prepare_dataset.py script.
+    ```bash
+    python prepare_dataset.py
+        ```
 
 ---
 
