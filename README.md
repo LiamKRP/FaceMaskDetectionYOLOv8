@@ -16,7 +16,6 @@ Ya incluye el modelo entrenado y dos scripts de inferencia:
 
 1. **Video Inference (`infer_video.py`)**
    Usa la webcam para hacer inferencias en tiempo real.
-   Argumento opcional: `--save_video` para guardar el video inferido.
 
 2. **Image Inference (`infer_image.py`)**
    Realiza inferencia sobre múltiples imágenes.
@@ -82,12 +81,6 @@ pip install -r requirements.txt
 python infer_video.py
 ```
 
-Para guardar el video:
-
-```bash
-python infer_video.py --save_video
-```
-
 #### 🖼️ Inference en imágenes:
 
 ```bash
@@ -118,7 +111,6 @@ The repo includes a pre-trained model and two inference scripts.
 
 1. **Video Inference (`infer_video.py`)**
    Runs inference using the webcam in real time.
-   Optional argument: `--save_video` to save the video with predictions.
 
 2. **Image Inference (`infer_image.py`)**
    Performs inference on a batch of images.
@@ -182,12 +174,6 @@ pip install -r requirements.txt
 
 ```bash
 python infer_video.py
-```
-
-To save the output:
-
-```bash
-python infer_video.py --save_video
 ```
 
 #### 🖼️ Image Inference:
